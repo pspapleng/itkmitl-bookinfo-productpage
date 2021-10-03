@@ -19,4 +19,4 @@ docker build -t productpage .
 docker run -d --name my-running-productpage -p 8083:9080 productpage
 ```
 
-* Test with path `/productpage/1` and `/health`
+* Test with path `/` and `/health`
