@@ -9,6 +9,7 @@ pip install -r requirements.txt
 python productpage.py 9080
 ```
 
+
 ## How to run with Docker
 
 ```bash
@@ -20,3 +21,10 @@ docker run -d --name productpage -p 8083:9080 productpage
 ```
 
 * Test with path `/` and `/health`
+
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
